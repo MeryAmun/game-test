@@ -1,4 +1,4 @@
-import { Home,Folder,Settings,MessageSquare,Server} from 'react-feather';
+import { Home,Settings,MessageSquare,Server} from 'react-feather';
 import { VscFlame } from 'react-icons/vsc'
 import { LuStars } from 'react-icons/lu'
 import { BsArrowRepeat} from 'react-icons/bs'
