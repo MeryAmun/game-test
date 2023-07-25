@@ -48,15 +48,15 @@ export const sideBarData = [
     {
         icon:FaCarSide,title:'Car',link:'/',id:9
     },
-    {
-        icon:Folder,title:'Knowledge',link:'/',id:9
-    },
-    {
-        icon:Folder,title:'Knowledge',link:'/',id:9
-    },
-    {
-        icon:Folder,title:'Knowledge',link:'/',id:9
-    },
+    // {
+    //     icon:Folder,title:'Knowledge',link:'/',id:9
+    // },
+    // {
+    //     icon:Folder,title:'Knowledge',link:'/',id:9
+    // },
+    // {
+    //     icon:Folder,title:'Knowledge',link:'/',id:9
+    // },
 ]
 export const navBarData = [
     {
