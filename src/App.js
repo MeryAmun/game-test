@@ -1,23 +1,33 @@
-import logo from './logo.svg';
+import React,{ useState, useRef } from "react";
+//import { Routes, Route } from "react-router-dom";
+import { Navbar, Sidebar } from './components/index'
 import './App.css';
 
 function App() {
+  const mainApp =useRef()
+  const [toggleBar, setToggleBar] = useState(false);
+  const handleToggle = () => {
+    setToggleBar((prev) => !prev)
+  }
+  const changeWidth = () => {
+    mainApp.current.style.width = '90%'
+    mainApp.current.style.transition = 'width ease 0.31s';
+        
+      }
+      const prevWidth = () => {
+    mainApp.current.style.width = '70%'
+    mainApp.current.style.transition = 'width ease 0.31s';
+       
+      }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App" ref={mainApp}>
+       <Navbar toggleBar={toggleBar} handleToggle={handleToggle} change={changeWidth} previous={prevWidth}/>
+      <div className="app__body">
+      <Sidebar/>
+        {/* <Routes>
+<Route path='/' element={<ProductDetails />}/>
+        </Routes> */}
+      </div>
     </div>
   );
 }
