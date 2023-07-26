@@ -1,14 +1,15 @@
 import { Home,Settings,MessageSquare,Server} from 'react-feather';
 import { VscFlame } from 'react-icons/vsc'
-import { LuStars } from 'react-icons/lu'
-import { BsArrowRepeat} from 'react-icons/bs'
+import { LuStars,LuMousePointerClick } from 'react-icons/lu'
+import { BsArrowRepeat,BsController,BsDoorOpen} from 'react-icons/bs'
 import { FaRandom,FaCarSide} from 'react-icons/fa'
 import { HiOutlineUsers} from 'react-icons/hi'
 import { GiMineExplosion} from 'react-icons/gi'
 import { TbCompass} from 'react-icons/tb'
-import { RiBasketballFill} from 'react-icons/ri'
-import  { PiFlowerTulip } from 'react-icons/pi'
+import { RiBasketballFill,RiSteering2Line} from 'react-icons/ri'
+import  { PiFlowerTulip,PiDress } from 'react-icons/pi'
 import  { IoIosBicycle } from 'react-icons/io'
+import  { TbPlayCard } from 'react-icons/tb'
 
 
 export const sidebarRecent = [
@@ -48,15 +49,27 @@ export const sideBarData = [
     {
         icon:FaCarSide,title:'Car',link:'/',id:9
     },
-    // {
-    //     icon:Folder,title:'Knowledge',link:'/',id:9
-    // },
-    // {
-    //     icon:Folder,title:'Knowledge',link:'/',id:9
-    // },
-    // {
-    //     icon:Folder,title:'Knowledge',link:'/',id:9
-    // },
+    {
+        icon:TbPlayCard,title:'Card',link:'/',id:10
+    },
+    {
+        icon:LuMousePointerClick,title:'Clicker',link:'/',id:10
+    },
+    {
+        icon:BsController,title:'Controller',link:'/',id:12
+    },
+    {
+        icon:PiDress,title:'Dress Up',link:'/',id:13
+    },
+    {
+        icon:RiSteering2Line,title:'Driving',link:'/',id:14
+    },
+    {
+        icon:BsDoorOpen,title:'Escape',link:'/',id:15
+    },
+ 
+   
+    
 ]
 export const navBarData = [
     {

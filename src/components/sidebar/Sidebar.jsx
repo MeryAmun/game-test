@@ -56,7 +56,7 @@ console.log(setToggleWidth)
       {
         <BiTimeFive size={20} className="sidebar__linkIcon"/>
       }
-    <span className='sidebar__linkTitle'>
+    <span className='sidebar__recentLinkTitle'>
       Recently Played
       </span>
       </span>
