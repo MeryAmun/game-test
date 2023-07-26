@@ -22,39 +22,54 @@ html{
 }
 
 body{
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Nunito', sans-serif;
   background-color: #000;
  
 }
 
 
 /* ==============GENERAL STYLES============================== */
-.App{
+.app{
   display: flex;
+  background-color: #000;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
+  width: 100%;
   margin: 0;
-  padding: 0;
-  
+}
+
+.app__body{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+ width: 100%;
+
+ 
 }
 
 .app__sidebar{
-  border: 2px solid yellowgreen;
-  /* height: 100%; */
-  width: 200px;
-  position: fixed;
-    
-    top: 20;
-    left: 0;
-    width: auto;
-    padding: 20px 40px;
-    z-index: 1036;
-    transition: height ease 0.31s;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+
+  /* width: 60px; */
+  /* background-color: #fff; */
+ 
+  width: 80px;
+  position: absolute;
+  top: 0;
+  left: -10px;
+  right: 0;
+  bottom: 0;
+  z-index: 1036;
+  /* background-color: #000; */
+  border-right: 1px solid rgb(164, 142, 255);
+  /* box-shadow: 0 8px 20px -8px lightgray; */
+  align-items: center;
+ padding: 20px;
+ transition: width ease 0.31s;
 
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }

@@ -1,40 +1,32 @@
 .sidebar__wrapper{
-    /* position: relative;
-    width:30px;
-    height: 100vh; */
-    height: 100vh;
-    width: 80px;
-    position: fixed;
-    top: 50;
-    left: -10px;
+   width: 80px;
+  position: fixed;
+  top: 80;
+  bottom: 0;
+    left: 0;
     z-index: 1036;
     background-color: #000;
     border-right: 1px solid rgb(164, 142, 255);
     /* box-shadow: 0 8px 20px -8px lightgray; */
     align-items: center;
-   padding: 20px;
+   padding: 5px 20px;
    transition: width ease 0.31s;
-   overflow-y:scroll;
 }
 
 .sidebar__wrapperActive{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    height: 100vh;
+   
+    top: 80;
+    bottom: 0;
+      left: 0;
     width:200px;
     background-color: #000;
   
 }
 .sidebar__wrapper:hover{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    height: 100%;
     width:240px;
-    background-color: #000;
+    padding: 5px 20px;
+    margin: 0;
+  
   
 }
 .sidebar{
@@ -42,36 +34,15 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    height: 100vh;
+
     /* width: 60px; */
-    background-color: #fff;
+    background-color: #000;
     align-items: center;
     
     
 }
 
 
-
-.sidebar__logoContainer{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 10px;
-    overflow: hidden;
-    
-}
-.sidebar__logoBox{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center; 
-    /* padding: 1rem; */
-    
-}
-
-.sidebar__logoText{
-   margin-right: 20px;
-}
 
 .sidebar__linkContainer{
     transition:padding 1s;

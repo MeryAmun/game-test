@@ -1,0 +1,25 @@
+.gameCard{
+    padding: 8px 0px;
+    margin: 0 5px;
+}
+
+.gameCard__image{
+    width: 196px;
+    height: 86px;
+    object-fit: cover;
+    border-radius: 5px;
+  
+}
+.gameCard__link{
+   text-decoration: none;
+   border: none;
+   margin: 0;
+   padding: 0;
+   
+}
+.game__cardTitle{
+    font-family: Nunito "sans serif";
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+}

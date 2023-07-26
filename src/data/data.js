@@ -1,4 +1,3 @@
-import { Home,Settings,MessageSquare,Server} from 'react-feather';
 import { VscFlame } from 'react-icons/vsc'
 import { LuStars,LuMousePointerClick } from 'react-icons/lu'
 import { BsArrowRepeat,BsController,BsDoorOpen} from 'react-icons/bs'
@@ -53,7 +52,7 @@ export const sideBarData = [
         icon:TbPlayCard,title:'Card',link:'/',id:10
     },
     {
-        icon:LuMousePointerClick,title:'Clicker',link:'/',id:10
+        icon:LuMousePointerClick,title:'Clicker',link:'/',id:11
     },
     {
         icon:BsController,title:'Controller',link:'/',id:12
@@ -71,18 +70,67 @@ export const sideBarData = [
    
     
 ]
-export const navBarData = [
+export const games = [
     {
-        icon:Home,title:'Home',link:'/', id:1
+        source:"https://www.crazygames.com/game/turbo-stars---rival-racing",title:'Turbo Stars - Rival Racing',imageURL:'https://images.crazygames.com/turbo-stars---rival-racing/20230620162017/turbo-stars---rival-racing-cover?auto=format%2Ccompress&q=45&cs=strip&ch=DPR&fit=crop',category:"driving", id:1
     },
     {
-        icon:Server,title:'Status',link:'/', id:2
+        source:"https://www.crazygames.com/game/turbo-stars---rival-racing",title:'Turbo Stars - Rival Racing',imageURL:'https://images.crazygames.com/turbo-stars---rival-racing/20230620162017/turbo-stars---rival-racing-cover?auto=format%2Ccompress&q=45&cs=strip&ch=DPR&fit=crop',category:"driving", id:2
     },
     {
-        icon:MessageSquare,title:'Support',link:'/', id:3
+        source:"https://www.crazygames.com/game/turbo-stars---rival-racing",title:'Turbo Stars - Rival Racing',imageURL:'https://images.crazygames.com/turbo-stars---rival-racing/20230620162017/turbo-stars---rival-racing-cover?auto=format%2Ccompress&q=45&cs=strip&ch=DPR&fit=crop',category:"driving", id:3
     },
     {
-        icon:Settings,title:'Dashboard',link:'/', id:4
+        source:"https://www.crazygames.com/game/turbo-stars---rival-racing",title:'Turbo Stars - Rival Racing',imageURL:'https://images.crazygames.com/turbo-stars---rival-racing/20230620162017/turbo-stars---rival-racing-cover?auto=format%2Ccompress&q=45&cs=strip&ch=DPR&fit=crop',category:"driving", id:4
     },
+    {
+        source:"https://www.crazygames.com/game/turbo-stars---rival-racing",title:'Turbo Stars - Rival Racing',imageURL:'https://images.crazygames.com/turbo-stars---rival-racing/20230620162017/turbo-stars---rival-racing-cover?auto=format%2Ccompress&q=45&cs=strip&ch=DPR&fit=crop',category:"driving", id:5
+    },
+    {
+        source:"https://www.crazygames.com/game/turbo-stars---rival-racing",title:'Turbo Stars - Rival Racing',imageURL:'https://images.crazygames.com/turbo-stars---rival-racing/20230620162017/turbo-stars---rival-racing-cover?auto=format%2Ccompress&q=45&cs=strip&ch=DPR&fit=crop',category:"driving", id:6
+    },
+    {
+        source:"https://www.crazygames.com/game/turbo-stars---rival-racing",title:'Turbo Stars - Rival Racing',imageURL:'https://images.crazygames.com/turbo-stars---rival-racing/20230620162017/turbo-stars---rival-racing-cover?auto=format%2Ccompress&q=45&cs=strip&ch=DPR&fit=crop',category:"driving", id:7
+    },
+    {
+        source:"https://www.crazygames.com/game/turbo-stars---rival-racing",title:'Turbo Stars - Rival Racing',imageURL:'https://images.crazygames.com/turbo-stars---rival-racing/20230620162017/turbo-stars---rival-racing-cover?auto=format%2Ccompress&q=45&cs=strip&ch=DPR&fit=crop',category:"driving", id:8
+    },
+    {
+        source:"https://www.crazygames.com/game/turbo-stars---rival-racing",title:'Turbo Stars - Rival Racing',imageURL:'https://images.crazygames.com/turbo-stars---rival-racing/20230620162017/turbo-stars---rival-racing-cover?auto=format%2Ccompress&q=45&cs=strip&ch=DPR&fit=crop',category:"driving", id:9
+    },
+    {
+        source:"https://www.crazygames.com/game/turbo-stars---rival-racing",title:'Turbo Stars - Rival Racing',imageURL:'https://images.crazygames.com/turbo-stars---rival-racing/20230620162017/turbo-stars---rival-racing-cover?auto=format%2Ccompress&q=45&cs=strip&ch=DPR&fit=crop',category:"driving", id:10
+    },
+    {
+        source:"https://www.crazygames.com/game/turbo-stars---rival-racing",title:'Turbo Stars - Rival Racing',imageURL:'https://images.crazygames.com/turbo-stars---rival-racing/20230620162017/turbo-stars---rival-racing-cover?auto=format%2Ccompress&q=45&cs=strip&ch=DPR&fit=crop',category:"driving", id:11
+    },
+    {
+        source:"https://www.crazygames.com/game/turbo-stars---rival-racing",title:'Turbo Stars - Rival Racing',imageURL:'https://images.crazygames.com/turbo-stars---rival-racing/20230620162017/turbo-stars---rival-racing-cover?auto=format%2Ccompress&q=45&cs=strip&ch=DPR&fit=crop',category:"driving", id:12
+    },
+    {
+        source:"https://www.crazygames.com/game/turbo-stars---rival-racing",title:'Turbo Stars - Rival Racing',imageURL:'https://images.crazygames.com/turbo-stars---rival-racing/20230620162017/turbo-stars---rival-racing-cover?auto=format%2Ccompress&q=45&cs=strip&ch=DPR&fit=crop',category:"driving", id:13
+    },
+    {
+        source:"https://www.crazygames.com/game/turbo-stars---rival-racing",title:'Turbo Stars - Rival Racing',imageURL:'https://images.crazygames.com/turbo-stars---rival-racing/20230620162017/turbo-stars---rival-racing-cover?auto=format%2Ccompress&q=45&cs=strip&ch=DPR&fit=crop',category:"driving", id:14
+    },
+    {
+        source:"https://www.crazygames.com/game/turbo-stars---rival-racing",title:'Turbo Stars - Rival Racing',imageURL:'https://images.crazygames.com/turbo-stars---rival-racing/20230620162017/turbo-stars---rival-racing-cover?auto=format%2Ccompress&q=45&cs=strip&ch=DPR&fit=crop',category:"driving", id:15
+    },
+    {
+        source:"https://www.crazygames.com/game/turbo-stars---rival-racing",title:'Turbo Stars - Rival Racing',imageURL:'https://images.crazygames.com/turbo-stars---rival-racing/20230620162017/turbo-stars---rival-racing-cover?auto=format%2Ccompress&q=45&cs=strip&ch=DPR&fit=crop',category:"driving", id:16
+    },
+    {
+        source:"https://www.crazygames.com/game/turbo-stars---rival-racing",title:'Turbo Stars - Rival Racing',imageURL:'https://images.crazygames.com/turbo-stars---rival-racing/20230620162017/turbo-stars---rival-racing-cover?auto=format%2Ccompress&q=45&cs=strip&ch=DPR&fit=crop',category:"driving", id:17
+    },
+    {
+        source:"https://www.crazygames.com/game/turbo-stars---rival-racing",title:'Turbo Stars - Rival Racing',imageURL:'https://images.crazygames.com/turbo-stars---rival-racing/20230620162017/turbo-stars---rival-racing-cover?auto=format%2Ccompress&q=45&cs=strip&ch=DPR&fit=crop',category:"driving", id:18
+    },
+    {
+        source:"https://www.crazygames.com/game/turbo-stars---rival-racing",title:'Turbo Stars - Rival Racing',imageURL:'https://images.crazygames.com/turbo-stars---rival-racing/20230620162017/turbo-stars---rival-racing-cover?auto=format%2Ccompress&q=45&cs=strip&ch=DPR&fit=crop',category:"driving", id:19
+    },
+    {
+        source:"https://www.crazygames.com/game/turbo-stars---rival-racing",title:'Turbo Stars - Rival Racing',imageURL:'https://images.crazygames.com/turbo-stars---rival-racing/20230620162017/turbo-stars---rival-racing-cover?auto=format%2Ccompress&q=45&cs=strip&ch=DPR&fit=crop',category:"driving", id:20
+    },
+   
     
 ]
